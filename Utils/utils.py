@@ -37,5 +37,5 @@ def get_cont_sent(data, pred):
 		if pred[i] == 0:
 			pass
 		else:
-			contr_sentences.append(text[i])
+			contr_sentences.append(data[i])
 	return contr_sentences
