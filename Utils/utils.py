@@ -29,3 +29,12 @@ def get_cw(labels):
 	class_wts = list(class_wts)
 	return class_wts
 	
+# get contributory sentences
+def get_cont_sent(data, pred):
+	contr_sentences = list()
+	for i in range(len(pred)):
+		if pred[i] == 0:
+			pass
+		else:
+			contr_sentences.append(text[i])
+	return contr_sentences
