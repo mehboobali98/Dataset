@@ -16,15 +16,15 @@ It contains the following resources:
 
 <pre>
 📦Dataset
-┣ 📜dataset.zip
-┣ 📜SentenceClassificationLabels.csv
-┣ 📜SentenceEntities.csv
-┣ 📜SentencesLabelsMulticlass.csv
-┗ 📜triples_with_labels.csv
-
-📦Utils
-┗ 📜utils.py
-
-📦weights
-┗ 📜bilstm_crf.pt
+ ┣ 📂Dataset
+ ┃ ┣ 📜dataset.zip
+ ┃ ┣ 📜SentenceClassificationLabels.csv
+ ┃ ┣ 📜SentenceEntities.csv
+ ┃ ┣ 📜SentencesLabelsMulticlass.csv
+ ┃ ┗ 📜triples_with_labels.csv
+ ┣ 📂Utils
+ ┃ ┗ 📜utils.py
+ ┣ 📂weights
+ ┃ ┗ 📜bilstm_crf.pt
+ ┗ 📜README.md
 </pre>
