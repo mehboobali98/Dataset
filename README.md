@@ -14,6 +14,8 @@ It contains the following resources:
 - Weights
   It contains the weights of models after training.
 
+# Directory Structure
+
 <pre>
 📦Dataset
  ┣ 📂Dataset
