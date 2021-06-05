@@ -12,5 +12,5 @@ It contains the following resources:
 	It contains python file which has utility being used in our project.
 	
 * Weights
-	It contains the weights of models after training
+	It contains the weights of models after training.
 	* Phrase Extraction
