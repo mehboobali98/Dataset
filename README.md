@@ -7,3 +7,10 @@ It contains the following resources:
 	* Phrase Extraction
 	* Multi-Class Sentence Classification
 	* Predicate Classification
+	
+* Utils
+	It contains python file which has utility being used in our project.
+	
+* Weights
+	It contains the weights of models after training
+	* Phrase Extraction
