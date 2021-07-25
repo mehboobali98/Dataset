@@ -53,7 +53,6 @@ def parse(text):
 			sentences.append(tokenized_text[i])
 			k = i + 1
 			while True:
-				print(k)
 				if k == len(tokenized_text):
 					break
 				else:
@@ -68,4 +67,4 @@ def parse(text):
 		else:
 			i += 1
 
-	print(sentences)
+	return sentences
