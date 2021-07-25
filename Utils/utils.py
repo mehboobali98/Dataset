@@ -39,3 +39,33 @@ def get_cont_sent(data, pred):
 		else:
 			contr_sentences.append(data[i])
 	return contr_sentences
+
+def parse(text):
+	tokenized_text = text.splitlines()
+	sentences = ["Title"]
+	headings_list = ["Abstract", "Introduction", "Results", "Experiments", "Conclusion"]
+	# assuming the first two sentences comprise the title
+	sentences.append(tokenized_text[0] + " " + tokenized_text[1])
+	i = 2
+	print(len(tokenized_text))
+	while i < len(tokenized_text):
+		if tokenized_text[i] in headings_list:
+			sentences.append(tokenized_text[i])
+			k = i + 1
+			while True:
+				print(k)
+				if k == len(tokenized_text):
+					break
+				else:
+					sentence = tokenized_text[k]
+				if sentence in headings_list:
+					break
+				else:
+					if len(sentence) > 5:
+						sentences.append(sentence)
+					k += 1
+			i = k
+		else:
+			i += 1
+
+	print(sentences)
